@@ -1,3 +1,5 @@
+/* fonts */
+
 @font-face {
     font-family: "Manrope";
     src: url(fonts/Manrope/static/Manrope-Medium.ttf);
@@ -19,6 +21,7 @@
     src: url(fonts/SourcecodePro/SourceCodePro-Regular.ttf);
 }
 
+/* universal tags */
 * {
     margin: 0px;
     padding: 0px;
@@ -111,6 +114,7 @@ section {
     padding: 48px 0 48px 0;
 }
 
+/* colours section */
 #colours div {
     display: inline-block;
     margin: 8px 32px;
@@ -175,6 +179,8 @@ section {
 #dark5 {
     background-color: #fcfcfc;
 }
+
+/* fonts section */
 #fonts article {
     margin: 32px 0;
 }
@@ -183,58 +189,21 @@ section {
     font-size: 20px;
 }
 
-.italic{
-    font-style: italic;
+/* text styles section */
+#textStyles {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.bold{
-    font-weight: bold;
+#textStyles article {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.boldItalic {
-    font-weight: bold;
-    font-style: italic;
-}
-
-.mohave {
-    font-family: "Mohave";
-}
-
-.manrope {
-    font-family: "Manrope";
-}
-
-.poppins {
-    font-family: "Poppins";
-}
-
-.sourcecodePro {
-    font-family: "Sourcecode Pro";
-}
-
-.marginBottom {
-    margin-bottom: 32px;
-}
-
-footer {
-    background-color: #f0f2f5;
-    padding: 16px;
-    text-align: left;
-}
-
-footer p {
-    display: inline-block;
-}
-
-.floatRight {
-    float: right;
-}
-
-.blueBg {
-    background-color: #3385ff;
-    color: #f5faf6;
-}
-
+/* buttons section */
 #buttons article {
     display: inline-block;
     margin: 32px;
@@ -247,16 +216,6 @@ footer p {
     margin: 8px;
     padding: 8px 16px;
     border-radius: 50px;
-}
-
-.lightModeBg {
-    background-color: #f5faf6;
-    color: #1a1a1a;
-}
-
-.darkModeBg {
-    background-color: #292929;
-    color: #fcfcfc;
 }
 
 #button1 {
@@ -394,4 +353,77 @@ footer p {
 #button8:active {
     border: 2px solid #f5a13b;
     color: #f5a13b;
+}
+
+/* footer section */
+footer {
+    background-color: #f0f2f5;
+    padding: 16px;
+    text-align: left;
+}
+
+footer p {
+    display: inline-block;
+}
+
+/* styling classes */
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.boldItalic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.mohave {
+    font-family: "Mohave";
+}
+
+.manrope {
+    font-family: "Manrope";
+}
+
+.poppins {
+    font-family: "Poppins";
+}
+
+.sourcecodePro {
+    font-family: "Sourcecode Pro";
+}
+
+.marginBottom {
+    margin-bottom: 32px;
+}
+
+.floatRight {
+    float: right;
+}
+
+.blueBg {
+    background-color: #3385ff;
+    color: #f5faf6;
+}
+
+.lightModeBg {
+    background-color: #f5faf6;
+    color: #1a1a1a;
+}
+
+.darkModeBg {
+    background-color: #292929;
+    color: #fcfcfc;
+}
+
+.codeText {
+    background-color: rgba(26, 26, 26, .1);
+    width: 80%;
+    padding: 8px;
+    margin: 8px auto;
+    font-family: "Sourcecode Pro";
+    border-radius: 8px;;
 }
