@@ -218,7 +218,6 @@ footer {
 }
 
 #button1 {
-    background-color: #f5faf6;
     border: 2px solid #3385ff;
     color: #3385ff;
     transition: .3s;
@@ -244,7 +243,7 @@ footer {
 }
 
 #button2:hover {
-    background-color: #f5faf6;
+    background-color: rgba(75, 179, 120, 0);
     color: #4bb378;
 }
 
@@ -253,14 +252,12 @@ footer {
 }
 
 #button3 {
-    background-color: #f5faf6;
     border: 2px solid #4bb378;
     color: #1a1a1a;
     transition: .3s;
 }
 
 #button3:hover {
-    background-color: #f5faf6;
     color: #4bb378;
 }
 
@@ -277,9 +274,9 @@ footer {
 }
 
 #button4:hover {
-    background-color: #f5faf6;
-    border: 2px solid #3385ff;
-    color: #3385ff;
+    background-color: #4bb378;
+    border: 2px solid #4bb378;
+    color: #f5faf6;
 }
 
 #button4:active {
@@ -288,7 +285,7 @@ footer {
 }
 
 #button5 {
-    background-color: #292929;
+    background-color: rgba(41, 41, 41, 0);
     border: 2px solid #fcfcfc;
     color: #fcfcfc;
     transition: .3s;
@@ -314,7 +311,7 @@ footer {
 }
 
 #button6:hover {
-    background-color: #292929;
+    background-color: rgba(41, 41, 41, 0);
     color: #f5a13b;
 }
 
@@ -323,7 +320,7 @@ footer {
 }
 
 #button7 {
-    background-color: #292929;
+    background-color: rgba(41, 41, 41, 0);
     border: 2px solid #f5a13b;
     color: #f5a13b;
     transition: .3s;
@@ -347,7 +344,7 @@ footer {
 }
 
 #button8:hover {
-    background-color: #292929;
+    background-color: rgba(41, 41, 41, 0);
     border: 2px solid #4e84d4;
     color: #4e84d4;
 }
