@@ -43,17 +43,22 @@ header {
 nav {
     width: 100%;
     background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul li {
     font-family: "Manrope";
     font-weight: bold;
+    width: 128px;
 }
 
 nav a {
     color: #1a1a1a;
     padding: 8px;
     transition: .5s;
+    width: 128px;
 }
 
 nav a:hover {
