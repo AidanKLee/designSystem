@@ -1,0 +1,193 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(fonts/Manrope/static/Manrope-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Mohave";
+    src: url(fonts/Mohave/static/Mohave-Regular.ttf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Sourcecode Pro";
+    src: url(fonts/SourcecodePro/SourceCodePro-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-size: 14px;
+    text-align: center;
+}
+
+body {
+    background-color: #f5faf6;
+    color: #1a1a1a;
+}
+
+nav {
+    width: 100%;
+    background-color: #f0f2f5;
+}
+
+nav ul li {
+    font-family: "Manrope";
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Mohave", sans-serif;
+    margin: 4px 0;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 34px;
+}
+
+h5 {
+    font-size: 25px;
+}
+
+h6 {
+    font-size: 19px;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+p {
+    margin: 0 8px;
+}
+
+section {
+    width: 100%;
+    padding: 48px 0 48px 0;
+}
+
+#colours div {
+    display: inline-block;
+    margin: 0 32px;
+}
+
+#colours article {
+    width: 256px;
+    border: 0px solid #000000;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 16px;
+    box-shadow: 0px 5px 10px #aaaaaa;
+}
+
+#light2 {
+    background-color: #f0f2f5;
+}
+
+#light3 {
+    color: #f5faf6;
+    background-color: #3385ff;
+}
+
+#light4 {
+    color: #f5faf6;
+    background-color: #4bb378;
+}
+
+#light5 {
+    color: #f5faf6;
+    background-color: #1a1a1a;
+}
+
+#dark1 {
+    background-color: #292929;
+    color: #fcfcfc;
+}
+
+#dark2 {
+    background-color: #292937;
+    color: #fcfcfc;
+}
+
+#dark3 {
+    background-color: #4e84d4;
+    color: #fcfcfc;
+}
+
+#dark4 {
+    background-color: #f5a13b;
+    color: #fcfcfc;
+}
+
+#dark5 {
+    background-color: #fcfcfc;
+}
+
+#fonts p {
+    font-size: 20px;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.boldItalic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.mohave {
+    font-family: "Mohave";
+}
+
+.manrope {
+    font-family: "Manrope";
+}
+
+.poppins {
+    font-family: "Poppins";
+}
+
+.sourcecodePro {
+    font-family: "Sourcecode Pro";
+}
+
+footer {
+    background-color: #f0f2f5;
+    padding: 16px;
+}
+
+.blueBg {
+    background-color: #3385ff;
+    color: #f5faf6;
+}
