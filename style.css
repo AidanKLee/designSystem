@@ -123,7 +123,6 @@ section {
 #colours div {
     display: inline-block;
     margin: 8px 32px;
-    background-color: #f0f2f5;
     padding: 16px;
     border-radius: 20px;
 }
@@ -135,11 +134,20 @@ section {
     border-radius: 100px;
     margin: 10px;
     padding: 16px;
-    box-shadow: 0px 5px 10px #aaaaaa;
+    box-shadow: 0px 5px 10px #181818;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#lightMode {
+    background-color: #f0f2f5;
+}
+
+#darkMode {
+    background-color: #292929;
+    color: #fcfcfc;
 }
 
 #light2 {
@@ -183,6 +191,7 @@ section {
 
 #dark5 {
     background-color: #fcfcfc;
+    color: #292929;
 }
 
 /* fonts section */
