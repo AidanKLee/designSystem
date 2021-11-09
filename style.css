@@ -52,6 +52,7 @@ nav a {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Mohave", sans-serif;
     margin: 4px 0;
+    line-height: 1.1;
 }
 
 h1 {
@@ -190,4 +191,168 @@ footer {
 .blueBg {
     background-color: #3385ff;
     color: #f5faf6;
+}
+
+#buttons article {
+    display: inline-block;
+    margin: 32px;
+    border-radius: 32px;
+    padding: 16px;
+}
+
+#buttons button {
+    font-weight: bold;
+    margin: 8px;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+
+.lightModeBg {
+    background-color: #f5faf6;
+    color: #1a1a1a;
+}
+
+.darkModeBg {
+    background-color: #292929;
+    color: #fcfcfc;
+}
+
+#button1 {
+    background-color: #f5faf6;
+    border: 2px solid #3385ff;
+    color: #3385ff;
+    transition: .3s;
+}
+
+#button1:hover {
+    border: 2px solid #3385ff;
+    background-color: #3385ff;
+    color: #f5faf6;
+}
+
+#button1:active {
+    background-color: #4bb378;
+    border: 2px solid #4bb378;
+    box-shadow: inset;
+}
+
+#button2 {
+    border: 2px solid #4bb378;
+    background-color: #4bb378;
+    color: #f5faf6;
+    transition: .3s;
+}
+
+#button2:hover {
+    background-color: #f5faf6;
+    color: #4bb378;
+}
+
+#button2:active {
+    color: #1a1a1a;
+}
+
+#button3 {
+    background-color: #f5faf6;
+    border: 2px solid #4bb378;
+    color: #1a1a1a;
+    transition: .3s;
+}
+
+#button3:hover {
+    background-color: #f5faf6;
+    color: #4bb378;
+}
+
+#button3:active {
+    border: 2px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+#button4 {
+    background-color: #3385ff;
+    border: 2px solid #f5faf6;
+    color: #f5faf6;
+    transition: .3s;
+}
+
+#button4:hover {
+    background-color: #f5faf6;
+    border: 2px solid #3385ff;
+    color: #3385ff;
+}
+
+#button4:active {
+    border: 2px solid #1a1a1a;
+    color: #1a1a1a;
+}
+
+#button5 {
+    background-color: #292929;
+    border: 2px solid #fcfcfc;
+    color: #fcfcfc;
+    transition: .3s;
+}
+
+#button5:hover {
+    border: 2px solid #4e84d4;
+    background-color: #4e84d4;
+    color: #fcfcfc;
+}
+
+#button5:active {
+    background-color: #f5a13b;
+    border: 2px solid #f5a13b;
+    box-shadow: inset;
+}
+
+#button6 {
+    border: 2px solid #f5a13b;
+    background-color: #f5a13b;
+    color: #fcfcfc;
+    transition: .3s;
+}
+
+#button6:hover {
+    background-color: #292929;
+    color: #f5a13b;
+}
+
+#button6:active {
+    color: #fcfcfc;
+}
+
+#button7 {
+    background-color: #292929;
+    border: 2px solid #f5a13b;
+    color: #f5a13b;
+    transition: .3s;
+}
+
+#button7:hover {
+    background-color: #f5a13b;
+    color: #fcfcfc;
+}
+
+#button7:active {
+    border: 2px solid #292929;
+    color: #292929;
+}
+
+#button8 {
+    background-color: #4e84d4;
+    border: 2px solid #4e84d4;
+    color: #fcfcfc;
+    transition: .3s;
+}
+
+#button8:hover {
+    background-color: #292929;
+    border: 2px solid #4e84d4;
+    color: #4e84d4;
+}
+
+#button8:active {
+    border: 2px solid #f5a13b;
+    color: #f5a13b;
 }
